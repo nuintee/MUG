@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MUG | Company that makes your life better</title>
+    <link rel="icon" href="../Images/favicon.ico">
+    <link rel="stylesheet" href="index2.css">
+  </head>
+  <body>
+    <header>
+      <img id = 'logo' src = "../Images\logo.png" height = "50">
+      <ul class = 'gnavi'>
+        <li><a class = 'nav active' href = 'index2.html' id = 'topNavi'>TOP</a><div class = 'act-line active' ></div></li>
+        <li><a class = 'nav'  href = 'about.html' id = 'aboutNavi'>ABOUT</a><div class = 'act-line' ></div></li>
+        <li><a class = 'nav'  href = 'services.html' id = 'servicesNavi'>SERVICES</a><div class = 'act-line'></div></li>
+        <li><a class = 'nav'  href = 'recruit.html' id = 'recruitNavi'>RECRUIT</a><div class = 'act-line'></div></li>
+      </ul>
+      <div class='right'>
+        <ul  class = 'langB' >
+          <li class = 'languages'><a href = #eng data-reload onclick="window.location.href='#eng'; location.reload()">EN</a></li>
+          <li class = 'languages'><a href = #ja data-reload onclick="window.location.href='#ja'; location.reload()">JA</a></li>
+          <li class = 'languages'><a href = #bg data-reload onclick="window.location.href='#bg'; location.reload()">BG</a></li>
+        </ul>
+        <button type="button" id = 'contact' name="button">CONTACT US</button>
+      </div>
+    </header>
+    <main>
+      <video></video>
+      <h1 id = 'slogan'>COMPANY THAT MAKES YOUR LIFE BETTER.</h1>
+      <div class = 'servs'>
+        <div class = 'item' id = 'uclub'><video class = 'uvideos' id = 'ucv' onmouseover="play();" onmouseout="pause();" poster='../Images/u-club.jpg' src='../Videos\uclub.mp4'/></video><p>U-CLUB</p></div>
+        <div  class = 'item' id = 'ustore'><video class = 'uvideos' onmouseover="play();" onmouseout="pause();"    poster='../Images/u-store.jpg' src='../Videos\ustore.mp4'/></video><p>U-STORE</p></div>
+        <div  class = 'item' id = 'urestaurant'><video class = 'uvideos' onmouseover="play();" onmouseout="pause();"    poster='../Images/u-restaurant.jpg' src='../Videos/u-restaurant.mp4'/></video><p>U-RESTAURANT</p></div>
+      </div>
+      <footer>
+        <div class = 'f-left'>
+          <img id = 'flogo' src = "../Images/logo.png">
+          <p id = 'address'>1-2-3 XXXX,Naka-ward, Yokohama</p>
+        </div>
+        <ul class = 'fnavi'>
+          <li><a href="dummy.html">FAQ</a></li>
+          <li><a href="dummy.html" id = 'privacyPolicy'>Privacy Policy</a></li>
+          <li><a href="dummy.html" id = 'terms'>Terms</a></li>
+          <li><a href="dummy.html" id = 'aboutUs'>About Us</a></li>
+        </ul>
+        <ul class = 'fsns'>
+          <li><a href = 'https://www.instagram.com/instagram/'><img class ='img' id = 'ig' src = '../Images/trans.png'></a></li>
+          <li><a href = 'https://www.facebook.com/'><img class ='img' id = 'fb' src = '../Images/trans.png'></a></li>
+          <li><a href = 'https://twitter.com/'><img class ='img' id = 'tw' src = '../Images/trans.png'></a></li>
+        </ul>
+        <p id = 'law'>© COPYRIGHT MUG. ALL RIGHTS RESERVED.</p>
+    </footer>
+  </main>
+    <script type="text/javascript" src = 'languageManage.js'></script>
+  </body>
+</html>
